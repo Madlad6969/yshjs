@@ -8,7 +8,7 @@
 // console.log(arr);
 // console.log(arr[4]);
 
-// let arr=[32,62,35,46,92,45]
+let arr=[32,62,35,46,92,45]
 
 
 //  let max=0
@@ -18,6 +18,11 @@
 // }
 // console.log(max);
 
+let min=92
+for(let i=0;i<arr.length;i++){
+    min=Math.min(min,arr[i])
+}
+console.log(min);
 
 
 // let difference=Infinity
@@ -40,18 +45,33 @@
 
 
 
-let arr=[23,45,46,74,32]
+// let arr=[23,45,46,74,32]
 
-n=arr.length
-let first=0
-let last=n-1
+// n=arr.length
+// let first=0
+// let last=n-1
 
-while(last>=first){
-    let temp=arr[last]
-    arr[first]=arr[last]
-    arr[last]=temp
-    first++
-    last --
+// while(last>=first){
+//     let temp=arr[last]
+//     arr[first]=arr[last]
+//     arr[last]=temp
+//     first++
+//     last --
 
-}
-console.log(arr);
+// }
+// console.log(arr);
+
+// let arr=[[1,2,3],[4,5,6],[7,8,9]]
+// console.log(arr);
+
+
+// for(let i=0;i<=arr.length;i++){
+//     for(let j=0;j<arr[i].length;j++){
+
+//         console.log(arr[i][j]);
+        
+//     }
+// }
+
+
+
